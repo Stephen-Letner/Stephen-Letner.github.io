@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CIS 099 Unit 3 Project</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+   <h1>Dynamic Image Gallery</h1>
+   <p>Resize the browser window to change the images!</p>
+   <hr>
+  </header>
+
+  <main>  
+  <h3>Cars</h3>
+    <picture>
+     <source media="(min-width: 769px)" srcset="./images/car1.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 426px)" srcset="./images/car2.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 321px)" srcset="./images/car3.jpg" style="width:200px; height:200px;">
+     <img src="./images/car4.jpg" style="width:200px; height:200px;">
+    </picture>
+  <hr>
+  <h3>Machines</h3>
+    <picture>
+     <source media="(min-width: 769px)" srcset="./images/machine1.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 426px)" srcset="./images/machine2.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 321px)" srcset="./images/machine3.jpg" style="width:200px; height:200px;">
+     <img src="./images/machine4.jpg" style="width:200px; height:200px;">
+    </picture>
+  <hr>
+  <h3>Objects</h3>
+    <picture>
+     <source media="(min-width: 769px)" srcset="./images/object1.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 426px)" srcset="./images/object2.jpg" style="width:200px; height:200px;">
+     <source media="(min-width: 321px)" srcset="./images/object3.jpg" style="width:200px; height:200px;">
+     <img src="./images/object4.jpg" style="width:200px; height:200px;">
+    </picture>
+  </main>
+
+  <footer>
+   <center>&copy;<i>2022 Stephen Letner</i></center>  
+  </footer>
+</body>
+
+</html>
