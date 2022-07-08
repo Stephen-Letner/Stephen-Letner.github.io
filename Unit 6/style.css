@@ -1,0 +1,49 @@
+div#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;  
+}
+
+main {
+  background-color: black;
+  color: #ade2c0;
+}
+
+ul {
+  list-style-image: url("/Unit 6/images/switch-listmarker.png");
+  list-style-type: circle;
+  padding: 50px;
+  outline: outside;
+}
+
+.border-image {
+  border: 10px solid transparent;
+  border-image: url("/Unit 6/images/red-border.png") 33 round;
+  padding: 15px;
+}
+
+.main-image {
+  height: 300px;
+  border: 10px solid transparent;
+  border-image: url("/Unit 6/images/red-border.png") 33 round;
+  padding: 1px;
+}
+
+/* Copied from the web and modified */
+body {
+    background: linear-gradient(42deg, #2843fb, #2843fb, #e01818, #e01818);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
