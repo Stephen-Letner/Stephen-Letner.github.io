@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+button {
+background:    #00ffff;
+background:    linear-gradient(#00ffff, #8bff00);
+border-radius: 11px;
+padding:       12px 24px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 26px/1 "Vollkorn", serif;
+text-align:    center;
+}
